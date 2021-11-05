@@ -1,4 +1,6 @@
+{% load static %}
 <!DOCTYPE HTML>
+
 <!--
 	Twenty by HTML5 UP
 	html5up.net | @ajlkn
@@ -10,21 +12,20 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css'%}" />
+		<link rel="stylesheet" href="{% static 'assets/css/style.css'%}" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
 	<body class="index">
 		<div id="page-wrapper">
-
 			<!-- Header -->
 				<header id="header" class="alt">
 					<h1 id="logo">
 						<a href="">
-							<img class="logo" src="images/logo.png" alt="JCloud" />
-							<img class="logo alt" src="images/logo-alt.png" alt="JCloud" />
+							<img class="logo" src="{% static 'images/logo.png'%}" alt="JCloud" />
+							<img class="logo alt" src="{% static 'images/logo-alt.png'%}" alt="JCloud" />
 							<span class="cc">by J-DevOps</span>
 						</a>
 					</h1>
